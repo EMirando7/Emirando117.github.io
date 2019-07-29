@@ -24,8 +24,8 @@ output:
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #D2D6EF;
-  color: #FFF;
+  background: #f8f0fb;
+  color: black;
   padding: 5px;
   border-radius: 5px;
 }
@@ -47,9 +47,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+/* a:hover { */
+  /* text-decoration: underline; */
+/* } */
 
 /* Adjust background at your leisure! */
 header {
@@ -58,7 +58,7 @@ header {
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
     font-size: .875rem;
-    background: #613DC1;
+    background: rgb(76, 27, 211);
     border-bottom: 1px solid #000;
 }
 
@@ -73,7 +73,7 @@ header nav {
 }
 
 header a {
-    color: #fff;
+    color:black;
     line-height: 1.75rem;
     padding: 0 0.5rem
 }
